@@ -400,7 +400,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('rustexp-4d0e7de4566328cb_bg.wasm', import.meta.url);
+        input = new URL('rustexp-4ab5914fb676eb08_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
